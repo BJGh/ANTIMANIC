@@ -1,0 +1,23 @@
+name: ABSHAPPYFOREVER Sync
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Push to target repo
+        uses: cpina/github-action-push-to-another-repository@v1.6
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.ABSHAPPYFOREVER }}
+        with:
+          source-directory: "."
+          destination-github-username: "BJGh"
+          destination-repository-name: "TARGET_REPO_NAME"
+          user-email: "actions@github.com"
+          commit-message: "ABSHAPPYFOREVER auto‑sync"
