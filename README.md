@@ -3,3 +3,5 @@ Architecture: RUST ABI, console offline mode: MSDOSver.4.0 as offline + HolyC+Da
 Copyright 1998-2026 BurinZhargal Papaev. In grateful & Memoir to jargalFy 2018-2021, and Friends&Teachers&HighSchoolCoolStoryBobs. Dedicated to first love 2017, I hope you're still here.
 Saturday, February 14, 2026 11:32:19 PM VIVA VICTORIA AFRODITA VIVA LA VISTA! CORE IS FREE FOREVER! CELEBRATION OF OUR VICTORY!
 Sunday, February 15, 2026 8:37:36 PM HALT COWBOY! HALT JERKY MOONSHINIAC! WDYM UR MEANING? HUH STOPIT. DO NOT RUN IT INTO YOUR <LOVE> pc! DANGER! ITS ANTIMANIC ANTIJERKY ANTI MOONSHANIAC ANTI K!!!ler multipropagational LIVESYSTEM BEWARE STAY AWAY, it will be actively PATCHED! day to day.... stay in touch. IF YOU GOTTA RUN IT, who knows! WHO! "ЛЮБИМЫЙ НЕМЕЦКИЙ ПЕС БОЛЬШЕ НЕ С НАМИ!" И Др. GREATEST WORDS OF INTERNATIONAL BUREAU OF JARGALIZMENT (JargalFy, ICPCMoscow 2021... SUPERFINALES!)
+Monday, after dinner patch Feb 16. 6:26 PM ADDED THE ipxEmulator to MCP server controller (interactive)
+:stack websockets "invoke" the OS/2 Warp4 .EXE
