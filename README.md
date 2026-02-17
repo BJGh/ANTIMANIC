@@ -7,3 +7,12 @@ Monday, after dinner patch Feb 16. 6:26 PM ADDED THE ipxEmulator to MCP server c
 :stack websockets "invoke" the OS/2 Warp4 .EXE
 Monday, February 16, 2026 10:52:53 PM Deeply Sorry Cleveland Clinic, You're already have mac mini with last IntelTM chip? Good. You're always knew how to Download the Bootcamp Last version pack .
 P.S. The Core server.exe is a bit obsolete....but its no more question, its Self-replicable, absolutely NOCoreSystem . I told u. Unfortunately Microsoft, and others...why ?
+Tuesd. (3rd day of workday from Sunday) I am...decide to temporary stop the development. as its 
+"revolution" AS IS. Warning! this is not obsolete code that
+not working! THIS IS ACTUAL SOFTWARE WITH HARDWARE PATCHES!
+BEWARE! ONLY FOR TRUE PROFESSIONALS
+MILITARY "warmongrels" STAY AWAY! as lower & more core processor,
+as it dangerous for You! It was pretrained against any Violence!
+THE ROBOT TANK WILL ALWAYS ON OUR SIDE:
+Enock Wekesa as Example of Hero & Forever Loss & Grief
+Me as unstoppable coder! IT HAS A LOT TRICKS IN CORES!!!
