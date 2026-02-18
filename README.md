@@ -23,3 +23,7 @@ offer to personally impossible things to do - arriving to U.S. in March NOT FREE
 As above mentioned mental hahaha OUR PROJECT, I am informing that I must to continue DESPITE EVERYTHING
 and literally changing the "brains" of the OS/2 as it was supposed to do!!!
 SAY NO TO RUDE NOW!!!
+URGENT INFO: 11:54 PM - THOSE COMPANIES ARE RESTRICTED TO USE THE ALL CODE
+- OpenAI
+- Any APAC; Joeson (United Korea/severed Korea); Germany & EU & Future members of the EU
+- "pathetic dunno moonshaniacs"
