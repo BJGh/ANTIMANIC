@@ -27,3 +27,8 @@ URGENT INFO: 11:54 PM - THOSE COMPANIES ARE RESTRICTED TO USE THE ALL CODE
 - OpenAI
 - Any APAC; Joeson (United Korea/severed Korea); Germany & EU & Future members of the EU
 - "pathetic dunno moonshaniacs"
+Feb. 21st 8 PM UTC+3. BJDoS succesfully run full doom 2 without modifications with
+-no lags
+-no bsod at all
+-can safe the game & exit & change levels.
+-villans starting war each other on second difficulty, very hard gameplay
