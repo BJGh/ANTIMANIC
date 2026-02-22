@@ -31,4 +31,8 @@ Feb. 21st 8 PM UTC+3. BJDoS succesfully run full doom 2 without modifications wi
 -no lags
 -no bsod at all
 -can safe the game & exit & change levels.
--villans starting war each other on second difficulty, very hard gameplay
+-villans starting war each other on second difficulty, very hard gameplay ; p.s. setup.exe fully working!
+Feb 22. 10:19 AM UTC-3: successfully attempt to run NFS3 Dos on BJDoS Beta but didnt satisfied that:
+- this program must be run under win32. So such no meaning...just copy BJDoS to win3.1 and update...or just
+replace DOS from win98se. Me lazy...
+P.S. drivers CPY.bat all working, surprice that I dont have mentioned obsoletion in above RELEASE folders...
