@@ -1,4 +1,3 @@
-
 p.s. Partially ML Brain truncated because its "large"; the whole repo isnt here! 
 Architecture: RUST ABI, console offline mode: MSDOSver.4.0 as offline + HolyC+DartFlutterGUI+MCPDartCopilot. Parachute+EMERGENCYSTOP is FPGA CODES+additional Informational Security codes. 
 Copyright 1998-2026 BurinZhargal Papaev. In grateful & Memoir to jargalFy 2018-2021, and Friends&Teachers&HighSchoolCoolStoryBobs. Dedicated to first love 2017, I hope you're still here.
@@ -38,3 +37,4 @@ replace DOS from win98se. Me lazy...
 P.S. drivers CPY.bat all working, surprice that I dont have mentioned obsoletion in above RELEASE folders...
 Sunday, February 22, 2026 11:14:15 AM - successfully created raw folder with Original Windows3.1; all working but learning curve reached...don't understand at all, but if prev. upd. saying win32 required, maybe its
 more wiser to do straight into Win95 or further...as console reports its Release MSDOS5 Stable and Doom 2 hell on earth working all correctly and wonderfully on the same RetroArch) by the unfortunately, neither PCEm or VMware virtualisation would never work because its working from stupid llnux kvm api obsoletion, as mentioned before - its completely independent and without any stupidity VM things. the IPX install may work correctly...don't know eiter (meaning that even IPX from Doom2 Disk will work). there is no question about suitable for any before win95 era dos games.
+; DUNE2!!
