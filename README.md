@@ -38,3 +38,6 @@ P.S. drivers CPY.bat all working, surprice that I dont have mentioned obsoletion
 Sunday, February 22, 2026 11:14:15 AM - successfully created raw folder with Original Windows3.1; all working but learning curve reached...don't understand at all, but if prev. upd. saying win32 required, maybe its
 more wiser to do straight into Win95 or further...as console reports its Release MSDOS5 Stable and Doom 2 hell on earth working all correctly and wonderfully on the same RetroArch) by the unfortunately, neither PCEm or VMware virtualisation would never work because its working from stupid llnux kvm api obsoletion, as mentioned before - its completely independent and without any stupidity VM things. the IPX install may work correctly...don't know eiter (meaning that even IPX from Doom2 Disk will work). there is no question about suitable for any before win95 era dos games.
 ; DUNE2!!
+https://github.com/Baron-von-Riedesel/HX BARONS ARE RESTRICTED ALL RED BARONS ARE RESTRICTED! GERMANY&BENILUX GO HOME! 
+Thursday, February 26, 2026 8:39:49 AM
+REASON: FORK CANCELLED. Declaring Total War to all EU nation!
