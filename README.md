@@ -41,3 +41,4 @@ more wiser to do straight into Win95 or further...as console reports its Release
 https://github.com/Baron-von-Riedesel/HX BARONS ARE RESTRICTED ALL RED BARONS ARE RESTRICTED! GERMANY&BENILUX GO HOME! 
 Thursday, February 26, 2026 8:39:49 AM
 REASON: FORK CANCELLED. Declaring Total War to all EU nation!
+Friday, February 27, 2026 8:26:49 PM PROHIBITION OF ALL "INDEPENDENT" JOURNAL/MAGAZINE POOP GENERATORS & JOURNALISTS AND ANY DOTCOM SHIT NOW.
