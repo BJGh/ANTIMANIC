@@ -1,0 +1,4 @@
+appwrite
+tensorflow
+opennsfw2
+pillow
