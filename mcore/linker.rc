@@ -1,0 +1,42 @@
+ENTRY(_start)
+
+SECTIONS {
+    . = 1M;  /* Load at 1MB to avoid real-mode memory conflicts */
+    .text : ALIGN(4K) {
+        KEEP(*(.multiboot_header)) /* ВАЖНО: Заголовок должен быть первым! */
+        *(.text .text.*)
+    }
+
+    .text : ALIGN(4K) {
+        *(.text .text.*)
+    }
+
+    .rodata : ALIGN(4K) {
+        *(.rodata .rodata.*)
+    }
+
+    .data : ALIGN(4K) {
+        *(.data .data.*)
+    }
+
+    .bss : ALIGN(4K) {
+        __bss_start = .;
+        *(.bss .bss.*)
+        . = ALIGN(4K);
+        __bss_end = .;
+    }
+
+    /* Reserve stack space for kernel operations */
+    .stack (NOLOAD) : ALIGN(4K) {
+        __stack_start = .;
+        . += 64K;  /* 64KB stack should suffice for minimal kernel */
+        __stack_end = .;
+    }
+
+    /* Future-proofing: Reserve space for page tables if virtualization needed */
+    .ptables (NOLOAD) : ALIGN(4K) {
+        __ptables_start = .;
+        . += 16K;
+        __ptables_end = .;
+    }
+}
