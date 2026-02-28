@@ -1,0 +1,6 @@
+warning: unused manifest key: unstable
+error: can't find bin `mcore` at path `C:\AIML AntiManic miniKernelOS\mcore\mcore\src\main.rs`
+ --> C:\AIML AntiManic miniKernelOS\mcore\Cargo.toml
+error: can't find bin `mcore` at path `C:\AIML AntiManic miniKernelOS\mcore\mcore\src\main.rs`
+ --> C:\AIML AntiManic miniKernelOS\mcore\Cargo.toml
+error: could not compile due to 2 previous target resolution errors
