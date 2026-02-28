@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScheludeMIREA</string>
+    <string name="ivbo_10_18">IVBO-10-18</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_hello">HelloActivity</string>
+    <string name="_10_18">ИВБО_10_18</string>
+    <string name="ИВБО_10_18">ИВБО-10-18</string>
+</resources>
