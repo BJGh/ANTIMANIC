@@ -2490,3 +2490,11 @@ To add additional comments, reply to this email.
 
 This email is a service from Niantic Spatial. Delivered by Zendesk
 Result: account deleted by Racist Nippon
+Niantic Spatial SDK Community] Your account has been deleted
+Hello,
+
+This is an automated message from Niantic Spatial SDK Community to let you know that the user account associated with this email address has been deleted by a staff member.
+
+Your post was flagged as spam: the community feels it is an advertisement, something that is overly promotional in nature instead of being useful or relevant to the topic as expected.
+
+Please review our community guidelines for details.
