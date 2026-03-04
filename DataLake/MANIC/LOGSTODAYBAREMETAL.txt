@@ -1,0 +1,793 @@
+NETDI: ClassInstall (0x6 on 0x3466:0x58) on  at Enum\Root\Net\0000
+NETDI: SetupFlags=519(SUF_INSETUP)(SUF_FIRSTTIME) BootCount= NetSetupFlags=0 (RETAIL)
+NETDI: Examining class Net
+NETDI: dif_FirstTimeSetup
+NETDI: Setting FirstBootUpgrade=1
+NETDI: ChangeLine: No matches found.
+NETDI: File Information for C:\WINDOWS\SYSTEM\wsock32.dll
+NETDI:     File not found
+NETDI: File Information for C:\WINDOWS\WINSOCK.DLL
+NETDI:     File not found
+NETDI: File Information for C:\WINDOWS\SYSTEM\WINSOCK.DLL
+NETDI:     File not found
+NETDI: Vxd\Winsock\IrSockets=wsirda.vxd
+NETDI: File Information for C:\WINDOWS\SYSTEM\wsirda.vxd
+NETDI:     File not found
+NETDI: BackupWSock: Clean install, exiting
+NETDI: DetectWSock=0
+NETDI: Installing WS2 in the standard locations
+NETDI: QueueNdiFileCopy: C:\WININST0.400\wsock32.dll->(LDID 11)wsock32.dll
+NETDI: QueueNdiFileCopy: C:\WININST0.400\winsock.dll->(LDID 25)winsock.dll
+NETDI: SelectMyBestCompatDrv: Found a compatible driver: Dial-Up Adapter
+NETDI: ClassInstall(0x6) end
+NETDI: NETDI: lpRegLogConf = 0x0
+NETDI: ClassInstall (0x9 on 0x3466:0x58) on  at Enum\Root\Net\0000
+NETDI: SetupFlags=519(SUF_INSETUP)(SUF_FIRSTTIME) BootCount= NetSetupFlags=7 (RETAIL)
+NETDI: ClassInstall(0x9) end
+NETDI: ClassInstall (0xa on 0x3466:0x58) on  at Enum\Root\Net\0000
+NETDI: SetupFlags=519(SUF_INSETUP)(SUF_FIRSTTIME) BootCount= NetSetupFlags=7 (RETAIL)
+NETDI: ProcessNdiFileQueue: C:\WININST0.400\wsock32.dll -> C:\WINDOWS\SYSTEM\wsock32.dll copied file
+NETDI: ProcessNdiFileQueue: C:\WININST0.400\winsock.dll -> C:\WINDOWS\winsock.dll copied file
+NETDI: ChangeLine: No matches found.
+NETDI: AddRemoveSetVer fAdd=1
+NETDI: ChangeLine: Adding line "DEVICE=C:\WINDOWS\setver.exe"
+NETDI: ClassInstall(0xa) end
+NETDI: ClassInstall (0xc on 0x3466:0x58) on  at Enum\Root\Net\0000
+NETDI: SetupFlags=519(SUF_INSETUP)(SUF_FIRSTTIME) BootCount= NetSetupFlags=7 (RETAIL)
+NETDI: ClassInstall(0xc) end
+
+
+ ****** BEGIN NEW RECORDING ***** 
+
+NETDI: ##################################################
+NETDI: EnumComplete Start
+NETDI: SetupFlags=509(SUF_FIRSTTIME) BootCount=1 NetSetupFlags=7 (RETAIL)
+NETDI: ExecuteQueuedAPIs
+NETDI: NdiWSCDeinstallProvider(FF017DE1) Result=-1, Errno=10014
+NETDI: NdiWSCInstallProvider(FF017DE1, C:\WINDOWS\SYSTEM\mswsosp.dll) Result=0, Errno=0
+
+
+ ****** BEGIN NEW RECORDING ***** 
+
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=7 (RETAIL)
+NETDI: VerifyCabsAvailable: Not network install, no need to verify
+NETDI: ClassInstall (0x18 on 0x23d6:0x58) on  at Enum\ROOT\NET\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=7 (RETAIL)
+NETDI: ExecuteQueuedAPIs
+NETDI: ClassInstall(0x18) end
+NETDI: ClassInstall (0x2 on 0x23d6:0x58) on  at Enum\ROOT\NET\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=7 (RETAIL)
+NETDI: Examining class Net
+NETDI: Found Enum\Root\Net\0000 in registry
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETPPP.INF,PPPMAC.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETPPP.INF,PPPMAC.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETPPP.INF,PPPMAC.ndi
+NETDI: NdiCreate(Dial-Up Adapter) OK
+NETDI: Validating Dial-Up Adapter at Enum\ROOT\NET\0000, rc = 0x0
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETPPP.INF,PPPMAC.Install
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETPPP.INF,PPPMAC.Install.WSock2
+NETDI: ChangeLine: No matches found.
+NETDI: ConfigureSetVer called
+NETDI: AddRemoveSetVer fAdd=0
+NETDI: RemLine: Deleting "DEVICE=C:\WINDOWS\setver.exe"
+NETDI: ClassInstall(0x2) end
+NETDI: ClassInstall (0xc on 0x23d6:0x58) on Dial-Up Adapter at Enum\ROOT\NET\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ClassInstall(0xc) end
+NETDI: ClassInstall (0x17 on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ClassInstall(0x17) end
+NETDI: ClassInstall (0x18 on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ClassInstall(0x18) end
+NETDI: ClassInstall (0x2 on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: Examining class Net
+NETDI: Found Enum\Root\Net\0000 in registry
+NETDI: NdiCreate(Dial-Up Adapter) OK
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,*pnp80d6.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,*pnp80d6.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,*pnp80d6.ndi
+NETDI: NdiCreate(NE2000 Compatible) OK
+NETDI: NETDI: lpRegLogConf = 0x0
+NETDI: Validating NE2000 Compatible at Enum\ROOT\*PNP80D6\0000, rc = 0x0
+NETDI: Validating Dial-Up Adapter at Enum\Root\Net\0000, rc = 0x0
+NETDI: Wrote p.ini:DriverName=MS2000$, sect: MS2000$
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis2
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis2.WSock2
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis3
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis3.WSock2
+NETDI: ChangeLine: No matches found.
+NETDI: ConfigureSetVer called
+NETDI: AddRemoveSetVer fAdd=0
+NETDI: ClassInstall(0x2) end
+NETDI: ClassInstall (0xc on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ClassInstall(0xc) end
+NETDI: ClassInstall (0x17 on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ClassInstall(0x17) end
+NETDI: ClassInstall (0x18 on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ClassInstall(0x18) end
+NETDI: ClassInstall (0x2 on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: Examining class Net
+NETDI: Found Enum\Root\*PNP80D6\0000 in registry
+NETDI: NdiCreate(NE2000 Compatible) OK
+NETDI: Found Enum\Root\Net\0000 in registry
+NETDI: NdiCreate(Dial-Up Adapter) OK
+NETDI: dif_InstallDevice: Reinstalling existing driver for NE2000 Compatible
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,*pnp80d6.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,*pnp80d6.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,*pnp80d6.ndi
+NETDI: Validating Dial-Up Adapter at Enum\Root\Net\0000, rc = 0x0
+NETDI: Validating NE2000 Compatible at Enum\Root\*PNP80D6\0000, rc = 0x0
+NETDI: Wrote p.ini:DriverName=MS2000$, sect: MS2000$
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis2
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis2.WSock2
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis3
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETNOVEL.INF,ne2000.ndis3.WSock2
+NETDI: ChangeLine: No matches found.
+NETDI: ConfigureSetVer called
+NETDI: AddRemoveSetVer fAdd=0
+NETDI: ClassInstall(0x2) end
+NETDI: ClassInstall (0xc on 0x23d6:0x58) on NE2000 Compatible at Enum\ROOT\*PNP80D6\0000
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ClassInstall(0xc) end
+NETDI: ##################################################
+NETDI: EnumComplete Start
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=3 (RETAIL)
+NETDI: ExecuteQueuedAPIs
+NETDI: Examining class Net
+NETDI: Found Enum\Root\*PNP80D6\0000 in registry
+NETDI: NdiCreate(NE2000 Compatible) OK
+NETDI: Found Enum\Root\Net\0000 in registry
+NETDI: NdiCreate(Dial-Up Adapter) OK
+NETDI: CreateNetwork, Batch=0
+NETDI: 1Got default MSTCP
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.ndi
+NETDI: NdiCreate(TCP/IP) OK
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.ndi
+NETDI: NdiCreate(TCP/IP) OK
+NETDI: 1Got default VREDIR
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETCLI.INF,VREDIR.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETCLI.INF,VREDIR.ndi
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETCLI.INF,VREDIR.ndi
+NETDI: NdiCreate(Client for Microsoft Networks) OK
+NETDI: 1Got default 
+NETDI: Validating Client for Microsoft Networks at Enum\Network\VREDIR\0000, rc = 0x0
+NETDI: Validating TCP/IP at Enum\Network\MSTCP\0001, rc = 0x0
+NETDI: Validating TCP/IP at Enum\Network\MSTCP\0000, rc = 0x0
+NETDI: Validating Dial-Up Adapter at Enum\Root\Net\0000, rc = 0x0
+NETDI: Validating NE2000 Compatible at Enum\Root\*PNP80D6\0000, rc = 0x0
+NETDI: Wrote p.ini:DriverName=MS2000$, sect: MS2000$
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETCLI.INF,VREDIR.Install
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETCLI.INF,VREDIR.Install.WSock2
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.Install
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.Install.WSock2
+NETDI: NdiWSCDeinstallProvider(FF017DE0) Result=-1, Errno=10014
+NETDI: NdiWSCInstallProvider(FF017DE0, C:\WINDOWS\SYSTEM\msafd.dll) Result=0, Errno=0
+NETDI: NdiWSCUnInstallNameSpace(FF017DE2) Result=-1
+NETDI: NdiWSCInstallNameSpace(FF017DE2,C:\WINDOWS\SYSTEM\rnr20.dll) Result=0
+NETDI: NdiWSCDeinstallProvider(E70F1AA0) Result=-1, Errno=10014
+NETDI: NdiWSCDeinstallProvider(ECBDCBA0) Result=-1, Errno=10014
+NETDI: NdiWSCInstallProvider(ECBDCBA0, C:\WINDOWS\SYSTEM\rsvpsp.dll) Result=0, Errno=0
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.Install
+NETDI:     GenInstallDriver, C:\WINDOWS\INF\NETTRANS.INF,MSTCP.Install.WSock2
+NETDI: NdiWSCDeinstallProvider(FF017DE0) Result=0, Errno=0
+NETDI: NdiWSCInstallProvider(FF017DE0, C:\WINDOWS\SYSTEM\msafd.dll) Result=0, Errno=0
+NETDI: NdiWSCUnInstallNameSpace(FF017DE2) Result=0
+NETDI: NdiWSCInstallNameSpace(FF017DE2,C:\WINDOWS\SYSTEM\rnr20.dll) Result=0
+NETDI: NdiWSCDeinstallProvider(E70F1AA0) Result=-1, Errno=10014
+NETDI: NdiWSCDeinstallProvider(ECBDCBA0) Result=0, Errno=0
+NETDI: NdiWSCInstallProvider(ECBDCBA0, C:\WINDOWS\SYSTEM\rsvpsp.dll) Result=0, Errno=0
+NETDI: ConfigureSetVer called
+NETDI: AddRemoveSetVer fAdd=0
+NETDI: ====================FirstBootCall==================
+NETDI: ExecuteQueuedAPIs
+NETDI: ClassInstall (0x6 on 0x1156:0x591c) on  at 
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=1 (RETAIL)
+NETDI: dif_FirstTimeSetup
+NETDI: ClassInstall(0x6) end
+NETDI: ClassInstall (0xc on 0x1156:0x591c) on  at 
+NETDI: SetupFlags=508 BootCount=2 NetSetupFlags=1 (RETAIL)
+NETDI: ClassInstall(0xc) end
+FirstRunScreens:Start
+ProcessInfInstall:File:C:\WINDOWS\OPTIONS\OEMAUDIT.INF: Section=:OneTime:
+ProcessInfInstall:Failed to open:C:\WINDOWS\OPTIONS\OEMAUDIT.INF: reRet=105
+VcpClose:About to close
+VcpClose:About to End
+VcpClose:About to Terminate
+SpezialGeninstalls:Start
+SpezialGeninstalls:Looking for :C:\WINDOWS\OPTIONS\PREDUP.TAG:
+Intl:INTL:0:
+GetUserInfo:INIT
+DoPreInstallWork:Auditmode :0:
+PrepareRunonce:Failed to open :C:\WINDOWS\OPTIONS\OEMAUDIT.INF:
+ProcessInfInstall:File:C:\WINDOWS\OPTIONS\EndUser.INF: Section=:Options:
+ProcessInfInstall:Failed to open:C:\WINDOWS\OPTIONS\EndUser.INF: reRet=105
+VcpClose:About to close
+VcpClose:About to End
+VcpClose:About to Terminate
+IsKeyEmpty:Start
+Timer:Start OPKRemoveInstalledNetDevice :160733:
+Timer:End OPKRemoveInstalledNetDevice :160733:
+CheckRunonceSetup:Start
+IsKeyEmpty:Start
+IsKeyEmpty:1) Have :Time zone:  :RUNDLL32.EXE SHELL32.DLL,Control_RunDLL TIMEDATE.CPL,,/f:
+CheckRunonceSetup:Check for wrapper =
+FirstRunScreens:Exit:0
+26.02.2026 11:05:41:886   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:889   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:891   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:891   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:892   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:892   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:893   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:894   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:894   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:895   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:896   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:896   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:897   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:897   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:898   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:899   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:899   "SendCommandDevice Cannot find UACReplace device" at "SendCommandDevice"
+26.02.2026 11:05:41:996   "StartService failed Error #998 No access to memory location" at "StartDriver"
+3 files 
+[05/28/2022 14:36:24] Success	Setup started: C:\PROGRAM FILES\AUTOPATCHER\FILES\3RDPARTY\POWMENU.EXE
+[05/28/2022 14:36:24] Notice	Setup engine version: 7.0.1.0
+[05/28/2022 14:36:24] Notice	Product: PowerMenu, version 1.51
+[05/28/2022 14:36:24] Success	Using per user profile
+[05/28/2022 14:36:24] Success	Language set: Primary = 9, Secondary = 1
+[05/28/2022 14:36:24] Success	Verify archive integrity
+[05/28/2022 14:36:24] Skipped	Date expiration check
+[05/28/2022 14:36:24] Skipped	Uses expiration check
+[05/28/2022 14:36:24] Success	System requirements check
+[05/28/2022 14:36:24] Success	Include script: _SUF70_Global_Functions.lua
+[05/28/2022 14:36:24] Notice	Start project event: Global Functions
+[05/28/2022 14:36:24] Success	Run project event: Global Functions
+[05/28/2022 14:36:24] Notice	Start project event: On Startup
+[05/28/2022 14:36:24] Success	Run project event: On Startup
+[05/28/2022 14:36:24] Notice	Start project event: On Pre Install
+[05/28/2022 14:36:24] Success	Run project event: On Pre Install
+[05/28/2022 14:36:24] Success	Free space check on drive: C:\
+[05/28/2022 14:36:24] Success	Set uninstall data folder: C:\Program Files\PowerMenu\Uninstall
+[05/28/2022 14:36:24] Success	Set uninstall config file name: C:\Program Files\PowerMenu\Uninstall\uninstall.xml
+[05/28/2022 14:36:24] Success	Uninstall config file not merging
+[05/28/2022 14:36:24] Success	Create folder: C:\Program Files\PowerMenu\
+[05/28/2022 14:36:24] Success	Create folder: C:\Program Files\PowerMenu\Uninstall\
+[05/28/2022 14:36:24] Success	Create uninstall data folder: C:\Program Files\PowerMenu\Uninstall
+[05/28/2022 14:36:24] Success	Create uninstall data file: C:\Program Files\PowerMenu\Uninstall\uninstall.dat
+[05/28/2022 14:36:24] Success	Install archive file: C:\Program Files\PowerMenu\PowerMenu.exe
+[05/28/2022 14:36:25] Success	File added to uninstall list: C:\Program Files\PowerMenu\PowerMenu.exe
+[05/28/2022 14:36:25] Success	Install archive file: C:\Program Files\PowerMenu\PowerMenuHook.dll
+[05/28/2022 14:36:25] Success	File added to uninstall list: C:\Program Files\PowerMenu\PowerMenuHook.dll
+[05/28/2022 14:36:25] Success	Install archive file: C:\Program Files\PowerMenu\readme.htm
+[05/28/2022 14:36:25] Success	File added to uninstall list: C:\Program Files\PowerMenu\readme.htm
+[05/28/2022 14:36:25] Success	Create folder: C:\WINDOWS\Start Menu\Programs\System utilities\
+[05/28/2022 14:36:25] Success	Create shortcut: C:\WINDOWS\Start Menu\Programs\StartUp\PowerMenu 1.51.lnk
+[05/28/2022 14:36:25] Success	Shortcut added to uninstall list: C:\WINDOWS\Start Menu\Programs\StartUp\PowerMenu 1.51.lnk
+[05/28/2022 14:36:25] Success	Create shortcut: C:\WINDOWS\Start Menu\Programs\System utilities\PowerMenu 1.51.lnk
+[05/28/2022 14:36:25] Success	Shortcut added to uninstall list: C:\WINDOWS\Start Menu\Programs\System utilities\PowerMenu 1.51.lnk
+[05/28/2022 14:36:25] Success	Registry key added to uninstall list: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\PowerMenu1.51
+[05/28/2022 14:36:25] Success	Uninstall CP entry: DisplayName = PowerMenu 1.51
+[05/28/2022 14:36:25] Success	Uninstall CP entry: UninstallString = "C:\Program Files\PowerMenu\Uninstall\uninstall.exe" "/U:C:\Program Files\PowerMenu\Uninstall\uninstall.xml"
+[05/28/2022 14:36:25] Success	Uninstall CP entry: Publisher = We are Borg
+[05/28/2022 14:36:25] Success	Uninstall CP entry: Contact = We are Borg Support Department
+[05/28/2022 14:36:25] Success	Uninstall CP entry: DisplayVersion = 1.51
+[05/28/2022 14:36:25] Success	Uninstall CP entry: DisplayIcon = "C:\Program Files\PowerMenu\PowerMenu.exe",0
+[05/28/2022 14:36:25] Success	Folder added to uninstall list: C:\Program Files\PowerMenu
+[05/28/2022 14:36:25] Success	Folder added to uninstall list: C:\Program Files\PowerMenu\Uninstall
+[05/28/2022 14:36:25] Success	Folder added to uninstall list: C:\WINDOWS\Start Menu\Programs\System utilities
+[05/28/2022 14:36:25] Notice	Start project event: On Post Install
+[05/28/2022 14:36:25] Success	Run project event: On Post Install
+[05/28/2022 14:36:25] Notice	Start project event: On Shutdown
+[05/28/2022 14:36:25] Success	Run project event: On Shutdown
+[05/28/2022 14:36:25] Success	Setup complete
+[06/06/2022 16:52:06] Success	Uninstall started: C:\PROGRAM FILES\POWERMENU\UNINSTALL\UNINSTALL.EXE
+[06/06/2022 16:52:06] Notice	Setup engine version: 7.0.1.0
+[06/06/2022 16:52:06] Notice	Product: PowerMenu, version 1.51
+[06/06/2022 16:52:06] Success	Language set: Primary = 9, Secondary = 1
+[06/06/2022 16:52:06] Success	Include script: _SUF70_Global_Functions.lua
+[06/06/2022 16:52:06] Notice	Start project event: Global Functions
+[06/06/2022 16:52:06] Success	Run project event: Global Functions
+[06/06/2022 16:52:06] Success	Run uninstall event: On Startup
+[06/06/2022 16:52:06] Success	Run uninstall event: On Pre Uninstall
+[06/06/2022 16:52:06] Success	Remove file: C:\Program Files\PowerMenu\PowerMenu.exe
+[06/06/2022 16:52:06] Success	Remove file: C:\Program Files\PowerMenu\PowerMenuHook.dll
+[06/06/2022 16:52:06] Success	Remove file: C:\Program Files\PowerMenu\readme.htm
+[06/06/2022 16:52:06] Error	Remove shortcut: C:\WINDOWS\Start Menu\Programs\StartUp\PowerMenu 1.51.lnk (2)
+[06/06/2022 16:52:06] Success	Remove shortcut: C:\WINDOWS\Start Menu\Programs\System utilities\PowerMenu 1.51.lnk
+[06/06/2022 16:52:06] Success	Run uninstall event: On Post Uninstall
+[06/06/2022 16:52:06] Success	Run uninstall event: On Shutdown
+[06/06/2022 16:52:06] Success	Remove uninstall data file: C:\Program Files\PowerMenu\Uninstall\uninstall.dat
+[06/06/2022 16:52:06] Success	Remove uninstall config file: C:\Program Files\PowerMenu\Uninstall\uninstall.xml
+[06/06/2022 16:52:06] Success	Remove uninstall CP entry from Registry: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\PowerMenu1.51
+[06/06/2022 16:52:06] Success	Remove folder: C:\WINDOWS\Start Menu\Programs\System utilities
+[06/06/2022 16:52:06] Error	Remove folder: C:\Program Files\PowerMenu\Uninstall (5)
+[06/06/2022 16:52:06] Error	Remove folder: C:\Program Files\PowerMenu (5)
+
+ValueName = HKLM,Software\Microsoft\Internet Explorer\URL Compatibility,Version
+CRCValueName = 57dfc317795c6784
+
+ValueName = HKLM,Software\Microsoft\Internet Explorer\URL Compatibility\~/CWIZINTR.HTM,Compatibility Flags
+CRCValueName = a202321c84df0e05
+
+ValueName = HKLM,Software\Microsoft\Internet Explorer\URL Compatibility\~/CONNWIZ.HTM,Compatibility Flags
+CRCValueName = 6a291e468fb55d41
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx]
+"Flags"=dword:00000ab0
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\103]
+"080"="C:\\WINDOWS\\SYSTEM\\rsaenh.dll|DllRegisterServer"
+@="Security"
+"019"="C:\\WINDOWS\\SYSTEM\\csseqchk.dll|DllRegisterServer"
+"015"="C:\\WINDOWS\\SYSTEM\\thumbvw.dll|DllRegisterServer"
+"001"="C:\\WINDOWS\\SYSTEM\\dssbase.dll|DllRegisterServer"
+"003"="C:\\WINDOWS\\SYSTEM\\initpki.dll|DllInstall|I,A"
+"004"="C:\\WINDOWS\\SYSTEM\\pstores.exe -install"
+"005"="C:\\WINDOWS\\SYSTEM\\initpki.dll|DllInstall|I,U"
+"002"="C:\\WINDOWS\\SYSTEM\\rsabase.dll|DllRegisterServer"
+"000"="rundll32.exe advpack.dll,LaunchINFSectionEx C:\\WINDOWS\\SYSTEM\\ieuinit.inf,BackupCryptoKeys.Win,,36"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\104]
+"035"="grpconv -o"
+"030"="C:\\Program Files\\Common Files\\Microsoft Shared\\MSInfo\\ieinfo5.ocx|DllRegisterServer"
+"028"="C:\\Program Files\\Common Files\\Microsoft Shared\\Triedit\\triedit.dll|DllRegisterServer"
+"029"="C:\\Program Files\\Common Files\\Microsoft Shared\\Triedit\\dhtmled.ocx|DllRegisterServer"
+@="System Services"
+"007"="C:\\WINDOWS\\SYSTEM\\inseng.dll|DllRegisterServer"
+"008"="C:\\WINDOWS\\SYSTEM\\iesetup.dll|DllInstall|i"
+"027"="C:\\Program Files\\Internet Explorer\\hmmapi.dll|DllRegisterServer"
+"020"="C:\\WINDOWS\\SYSTEM\\cryptdlg.dll|DllRegisterServer"
+"002"="C:\\WINDOWS\\SYSTEM\\actxprxy.dll|DllRegisterServer"
+"003"="C:\\WINDOWS\\SYSTEM\\dispex.dll|DllRegisterServer"
+"014"="C:\\WINDOWS\\SYSTEM\\occache.dll|DllRegisterServer"
+"015"="C:\\WINDOWS\\SYSTEM\\occache.dll|DllInstall|i"
+"024"="C:\\WINDOWS\\SYSTEM\\iepeers.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\101]
+"030"="C:\\WINDOWS\\SYSTEM\\shdoc401.dll|DllRegisterServer"
+"031"="C:\\WINDOWS\\SYSTEM\\shdoc401.dll|DllInstall|i"
+@="Browsing Services"
+"020"="C:\\WINDOWS\\SYSTEM\\asctrls.ocx|DllRegisterServer"
+"000"="C:\\WINDOWS\\SYSTEM\\oleaut32.dll|DllRegisterServer"
+"008"="C:\\WINDOWS\\SYSTEM\\shdocvw.dll|DllInstall|I"
+"011"="C:\\WINDOWS\\SYSTEM\\shdocvw.dll|DllInstall|I,ForceAssoc"
+"007"="C:\\WINDOWS\\SYSTEM\\shdocvw.dll|DllRegisterServer"
+"004"="C:\\WINDOWS\\SYSTEM\\browseui.dll|DllRegisterServer"
+"005"="C:\\WINDOWS\\SYSTEM\\browseui.dll|DllInstall|I"
+"010"="C:\\WINDOWS\\SYSTEM\\browsewm.dll|DllRegisterServer"
+"013"="C:\\WINDOWS\\SYSTEM\\msrating.dll|DllRegisterServer"
+"002"="C:\\WINDOWS\\SYSTEM\\mlang.dll|DllRegisterServer"
+"036"="C:\\WINDOWS\\SYSTEM\\dxtrans.dll|DllRegisterServer"
+"037"="C:\\WINDOWS\\SYSTEM\\dxtmsft.dll|DllRegisterServer"
+"014"="C:\\WINDOWS\\SYSTEM\\hlink.dll|DllRegisterServer"
+"035"="C:\\WINDOWS\\SYSTEM\\mstime.dll|DllRegisterServer"
+"012"="C:\\WINDOWS\\SYSTEM\\mshtml.dll|DllRegisterServer"
+"027"="C:\\WINDOWS\\SYSTEM\\mshtmled.dll|DllRegisterServer"
+"009"="C:\\WINDOWS\\SYSTEM\\urlmon.dll|DllRegisterServer"
+"017"="C:\\WINDOWS\\SYSTEM\\plugin.ocx|DllRegisterServer"
+"018"="C:\\WINDOWS\\SYSTEM\\sendmail.dll|DllRegisterServer"
+"003"="C:\\WINDOWS\\SYSTEM\\comctl32.dll|DllInstall|i"
+"021"="C:\\WINDOWS\\SYSTEM\\inetcpl.cpl|DllInstall|i"
+"022"="C:\\WINDOWS\\SYSTEM\\mshtml.dll|DllInstall|i"
+"028"="C:\\WINDOWS\\SYSTEM\\scrobj.dll|DllRegisterServer"
+"033"="C:\\WINDOWS\\SYSTEM\\proctexe.ocx|DllRegisterServer"
+"034"="C:\\WINDOWS\\SYSTEM\\mshta.exe /register"
+"029"="C:\\WINDOWS\\SYSTEM\\corpol.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\102]
+@="Internet Tools"
+"001"="C:\\WINDOWS\\SYSTEM\\jscript.dll|DllRegisterServer"
+"008"="C:\\WINDOWS\\SYSTEM\\msxml.dll|DllRegisterServer"
+"009"="C:\\WINDOWS\\SYSTEM\\msxml3.dll|DllRegisterServer"
+"002"="C:\\WINDOWS\\SYSTEM\\imgutil.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\100]
+"001"="C:\\WINDOWS\\SYSTEM\\setupwbv.dll|SetDefBrowserInfo|"
+"000"="C:\\WINDOWS\\SYSTEM\\wininet.dll|DeleteIE3Cache|"
+"005"="C:\\WINDOWS\\SYSTEM\\atl.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\500]
+"003"="C:\\WINDOWS\\SYSTEM\\wininet.dll|DllInstall|i,HKLM"
+"010"="C:\\WINDOWS\\SYSTEM\\urlmon.dll|DllInstall|i,HKLM"
+"002"="C:\\WINDOWS\\SYSTEM\\digest.dll|DllInstall|i,HKLM"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\090]
+"050"="rundll32.exe advpack.dll,DelNodeRunDLL32 C:\\WINDOWS\\SYSTEM\\dacui.dll"
+"054"="rundll32.exe advpack.dll,DelNodeRunDLL32 C:\\WINDOWS\\Catroot\\icatalog.mdb"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\Depend]
+"oleaut32"="C:\\WINDOWS\\SYSTEM\\oleaut32.dll"
+"urlmon"="C:\\WINDOWS\\SYSTEM\\urlmon.dll"
+"wininet"="C:\\WINDOWS\\SYSTEM\\wininet.dll"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\990]
+"000"="C:\\WINDOWS\\SYSTEM\\mstinit.exe /setup"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\800]
+"000"="C:\\WINDOWS\\SYSTEM\\cdfview.dll|DllRegisterServer"
+"001"="C:\\WINDOWS\\SYSTEM\\webcheck.dll|DllRegisterServer"
+"002"="C:\\WINDOWS\\SYSTEM\\mobsync.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\801]
+"000"="C:\\WINDOWS\\SYSTEM\\pngfilt.dll|DllRegisterServer"
+"001"="C:\\WINDOWS\\SYSTEM\\licmgr10.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\802]
+"000"="C:\\WINDOWS\\SYSTEM\\hhctrl.ocx|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\803]
+"000"="C:\\WINDOWS\\SYSTEM\\inetcfg.dll|DllRegisterServer"
+"001"="C:\\PROGRA~1\\INTERN~1\\Connection Wizard\\trialoc.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\804]
+"000"="C:\\WINDOWS\\SYSTEM\\tdc.ocx|DllRegisterServer"
+"001"="C:\\WINDOWS\\SYSTEM\\MSR2C.DLL|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\805]
+"000"="C:\\WINDOWS\\SYSTEM\\msident.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\806]
+"000"="C:\\WINDOWS\\SYSTEM\\msoeacct.dll|DllRegisterServer"
+"001"="C:\\Program Files\\Common Files\\System\\wab32.dll|DllRegisterServer"
+"002"="C:\\Program Files\\Outlook Express\\wabimp.dll|DllRegisterServer"
+"003"="C:\\Program Files\\Outlook Express\\wabfind.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\807]
+"000"="C:\\Program Files\\Outlook Express\\oemiglib.dll|DllRegisterServer"
+"001"="C:\\Program Files\\Common Files\\System\\directdb.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\808]
+"000"="C:\\WINDOWS\\SYSTEM\\inetcomm.dll|DllRegisterServer"
+"001"="C:\\Program Files\\Outlook Express\\msoe.dll|DllRegisterServer"
+"002"="C:\\Program Files\\Outlook Express\\oeimport.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\809]
+"000"="C:\\WINDOWS\\SYSTEM\\l3codecx.ax|DllRegisterServer"
+"001"="C:\\WINDOWS\\SYSTEM\\mpg4ds32.ax|DllRegisterServer"
+"002"="C:\\WINDOWS\\SYSTEM\\msadds32.ax|DllRegisterServer"
+"003"="C:\\WINDOWS\\SYSTEM\\acelpdec.ax|DllRegisterServer"
+"004"="C:\\WINDOWS\\SYSTEM\\voxmsdec.ax|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\810]
+"000"="C:\\PROGRA~1\\COMMON~1\\MICROS~1\\VGX\\vgx.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\811]
+"000"="C:\\WINDOWS\\SYSTEM\\macromed\\flash\\swflash.ocx|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\812]
+"000"="C:\\WINDOWS\\SYSTEM\\jscript.dll|DllRegisterServer"
+"001"="C:\\WINDOWS\\SYSTEM\\vbscript.dll|DllRegisterServer"
+"002"="C:\\WINDOWS\\SYSTEM\\scrrun.dll|DllRegisterServer"
+"003"="C:\\WINDOWS\\SYSTEM\\scrobj.dll|DllRegisterServer"
+"004"="C:\\WINDOWS\\SYSTEM\\wshom.ocx|DllRegisterServer"
+"005"="C:\\WINDOWS\\SYSTEM\\wshext.dll|DllRegisterServer"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\813]
+"000"="C:\\WINDOWS\\SYSTEM\\OLEAUT32.DLL|DllRegisterServer"
+
+
+************************ Begin logging ************************
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:01 (hh:mm:ss)
+
+[HKLM:Software\Microsoft\Windows\CurrentVersion\RunOnceEx]
+RRA_DELETE = 1
+RRA_WAIT = 1
+RRAEX_NO_ERROR_DIALOGS = 0
+RRAEX_ERRORFILE = 1
+RRAEX_LOG_FILE = 1
+RRAEX_NO_EXCEPTION_TRAPPING = 0
+RRAEX_NO_STATUS_DIALOG = 1
+RRAEX_IGNORE_REG_FLAGS = 0
+RRAEX_CHECK_NT_ADMIN = 1
+RRAEX_QUIT_IF_REBOOT_NEEDED = 1
+Dependency DLL loaded: C:\WINDOWS\SYSTEM\oleaut32.dll
+Dependency DLL loaded: C:\WINDOWS\SYSTEM\urlmon.dll
+Dependency DLL loaded: C:\WINDOWS\SYSTEM\wininet.dll
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:03 (hh:mm:ss)
+Section:090
+File:; Function:; Args:rundll32.exe advpack.dll,DelNodeRunDLL32 C:\WINDOWS\SYSTEM\dacui.dll; Action:ShellExec Command
+File:; Function:; Args:rundll32.exe advpack.dll,DelNodeRunDLL32 C:\WINDOWS\Catroot\icatalog.mdb; Action:ShellExec Command
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:03 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:03 (hh:mm:ss)
+Section:100
+File:C:\WINDOWS\SYSTEM\wininet.dll; Function:DeleteIE3Cache; Args:; Action:WinMain type function
+File:C:\WINDOWS\SYSTEM\setupwbv.dll; Function:SetDefBrowserInfo; Args:; Action:WinMain type function
+File:C:\WINDOWS\SYSTEM\atl.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:04 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:04 (hh:mm:ss)
+Section:101
+File:C:\WINDOWS\SYSTEM\oleaut32.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\mlang.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\comctl32.dll; Function:DllInstall; Args:i; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\browseui.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\browseui.dll; Function:DllInstall; Args:I; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\shdocvw.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\shdocvw.dll; Function:DllInstall; Args:I; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\urlmon.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\browsewm.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\shdocvw.dll; Function:DllInstall; Args:I,ForceAssoc; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\mshtml.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\msrating.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\hlink.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\plugin.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\sendmail.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\asctrls.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\inetcpl.cpl; Function:DllInstall; Args:i; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\mshtml.dll; Function:DllInstall; Args:i; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\mshtmled.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\scrobj.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\corpol.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\shdoc401.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\shdoc401.dll; Function:DllInstall; Args:i; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\proctexe.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:; Function:; Args:C:\WINDOWS\SYSTEM\mshta.exe /register; Action:ShellExec Command
+File:C:\WINDOWS\SYSTEM\mstime.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\dxtrans.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\dxtmsft.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:53 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:54 (hh:mm:ss)
+Section:102
+File:C:\WINDOWS\SYSTEM\jscript.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\imgutil.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\msxml.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\msxml3.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:57 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:08:57 (hh:mm:ss)
+Section:103
+File:; Function:; Args:rundll32.exe advpack.dll,LaunchINFSectionEx C:\WINDOWS\SYSTEM\ieuinit.inf,BackupCryptoKeys.Win,,36; Action:ShellExec Command
+File:C:\WINDOWS\SYSTEM\dssbase.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\rsabase.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\initpki.dll; Function:DllInstall; Args:I,A; Action:DllInstall()
+File:; Function:; Args:C:\WINDOWS\SYSTEM\pstores.exe -install; Action:ShellExec Command
+File:C:\WINDOWS\SYSTEM\initpki.dll; Function:DllInstall; Args:I,U; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\thumbvw.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\csseqchk.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\rsaenh.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:06 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:06 (hh:mm:ss)
+Section:104
+File:C:\WINDOWS\SYSTEM\actxprxy.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\dispex.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\inseng.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\iesetup.dll; Function:DllInstall; Args:i; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\occache.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\occache.dll; Function:DllInstall; Args:i; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\cryptdlg.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\iepeers.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Internet Explorer\hmmapi.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Common Files\Microsoft Shared\Triedit\triedit.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Common Files\Microsoft Shared\Triedit\dhtmled.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Common Files\Microsoft Shared\MSInfo\ieinfo5.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:; Function:; Args:grpconv -o; Action:ShellExec Command
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:14 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:14 (hh:mm:ss)
+Section:500
+File:C:\WINDOWS\SYSTEM\digest.dll; Function:DllInstall; Args:i,HKLM; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\wininet.dll; Function:DllInstall; Args:i,HKLM; Action:DllInstall()
+File:C:\WINDOWS\SYSTEM\urlmon.dll; Function:DllInstall; Args:i,HKLM; Action:DllInstall()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:18 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:19 (hh:mm:ss)
+Section:800
+File:C:\WINDOWS\SYSTEM\cdfview.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\webcheck.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\mobsync.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:21 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:21 (hh:mm:ss)
+Section:801
+File:C:\WINDOWS\SYSTEM\pngfilt.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\licmgr10.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:22 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:22 (hh:mm:ss)
+Section:802
+File:C:\WINDOWS\SYSTEM\hhctrl.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:23 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:23 (hh:mm:ss)
+Section:803
+File:C:\WINDOWS\SYSTEM\inetcfg.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\PROGRA~1\INTERN~1\Connection Wizard\trialoc.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:23 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:23 (hh:mm:ss)
+Section:804
+File:C:\WINDOWS\SYSTEM\tdc.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\MSR2C.DLL; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:24 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:24 (hh:mm:ss)
+Section:805
+File:C:\WINDOWS\SYSTEM\msident.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:24 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:24 (hh:mm:ss)
+Section:806
+File:C:\WINDOWS\SYSTEM\msoeacct.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Common Files\System\wab32.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Outlook Express\wabimp.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Outlook Express\wabfind.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:28 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:28 (hh:mm:ss)
+Section:807
+File:C:\Program Files\Outlook Express\oemiglib.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Common Files\System\directdb.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:29 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:30 (hh:mm:ss)
+Section:808
+File:C:\WINDOWS\SYSTEM\inetcomm.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Outlook Express\msoe.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\Program Files\Outlook Express\oeimport.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:33 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:33 (hh:mm:ss)
+Section:809
+File:C:\WINDOWS\SYSTEM\l3codecx.ax; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\mpg4ds32.ax; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\msadds32.ax; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\acelpdec.ax; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\voxmsdec.ax; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:35 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:36 (hh:mm:ss)
+Section:810
+File:C:\PROGRA~1\COMMON~1\MICROS~1\VGX\vgx.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:37 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:37 (hh:mm:ss)
+Section:811
+File:C:\WINDOWS\SYSTEM\macromed\flash\swflash.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:37 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:37 (hh:mm:ss)
+Section:812
+File:C:\WINDOWS\SYSTEM\jscript.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\vbscript.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\scrrun.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\scrobj.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\wshom.ocx; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+File:C:\WINDOWS\SYSTEM\wshext.dll; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:40 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:41 (hh:mm:ss)
+Section:813
+File:C:\WINDOWS\SYSTEM\OLEAUT32.DLL; Function:DllRegisterServer; Args:; Action:DllRegisterServer()
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:41 (hh:mm:ss)
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:41 (hh:mm:ss)
+Section:990
+File:; Function:; Args:C:\WINDOWS\SYSTEM\mstinit.exe /setup; Action:ShellExec Command
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:42 (hh:mm:ss)
+Dependency DLL unloaded: C:\WINDOWS\SYSTEM\oleaut32.dll
+Dependency DLL unloaded: C:\WINDOWS\SYSTEM\urlmon.dll
+Dependency DLL unloaded: C:\WINDOWS\SYSTEM\wininet.dll
+
+Date: 05/28/2022 (mm/dd/yyyy)	Time: 14:09:42 (hh:mm:ss)
+************************ End logging ************************
+"Task Scheduler Service"
+	Started at 5/25/22 2:11:06 PM
+"Task Scheduler Service"
+	Started at 5/25/22 2:12:46 PM
+"Task Scheduler Service"
+	Started at 5/25/22 2:21:04 PM
+"Task Scheduler Service"
+	Started at 5/25/22 2:25:12 PM
+"Task Scheduler Service"
+	Started at 5/25/22 2:30:23 PM
+"Task Scheduler Service"
+	Started at 5/25/22 2:38:48 PM
+"Task Scheduler Service"
+	Started at 5/25/22 2:52:09 PM
+"Task Scheduler Service"
+	Started at 5/27/22 4:08:52 PM
+"Task Scheduler Service"
+	Started at 5/27/22 4:31:45 PM
+"Task Scheduler Service"
+	Started at 5/28/22 12:56:44 PM
+"Task Scheduler Service"
+	Started at 5/28/22 1:13:28 PM
+"Task Scheduler Service"
+	Started at 5/28/22 1:49:56 PM
+"Task Scheduler Service"
+	Started at 5/28/22 1:51:47 PM
+"Task Scheduler Service"
+	Paused at 5/28/22 1:52:59 PM
+"Task Scheduler Service"
+	Continued at 5/28/22 1:53:02 PM
+"Task Scheduler Service"
+	Started at 5/28/22 1:53:57 PM
+"Task Scheduler Service"
+	Started at 5/28/22 1:57:22 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:02:24 PM
+"Task Scheduler Service"
+	Paused at 5/28/22 2:03:20 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:06:23 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:14:03 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:16:41 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:18:18 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:21:36 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:25:49 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:29:18 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:35:42 PM
+"Task Scheduler Service"
+	Paused at 5/28/22 2:36:46 PM
+"Task Scheduler Service"
+	Continued at 5/28/22 2:39:53 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:40:50 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:42:26 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:44:09 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:45:57 PM
+"Task Scheduler Service"
+	Started at 5/28/22 2:59:17 PM
+"Task Scheduler Service"
+	Started at 6/6/22 4:50:41 PM
+"Task Scheduler Service"
+	Started at 6/6/22 4:56:31 PM
+"Task Scheduler Service"
+	Started at 12/30/25 6:05:47 PM
+"Task Scheduler Service"
+	Started at 1/3/26 7:15:54 PM
+"Task Scheduler Service"
+	Started at 1/3/26 8:04:01 PM
+"Task Scheduler Service"
+	Started at 1/3/26 8:34:18 PM
+"Task Scheduler Service"
+	Started at 1/3/26 8:51:44 PM
+"Task Scheduler Service"
+	Started at 1/14/26 11:57:26 AM
+"Task Scheduler Service"
+	Started at 1/14/26 11:59:34 AM
+"Task Scheduler Service"
+	Started at 1/14/26 12:01:06 PM
+"Task Scheduler Service"
+	Started at 1/14/26 12:08:55 PM
+"Task Scheduler Service"
+	Started at 1/18/26 9:40:50 PM
+"Task Scheduler Service"
+	Started at 1/18/26 9:44:51 PM
+"Task Scheduler Service"
+	Started at 2/3/26 7:29:27 PM
+"Task Scheduler Service"
+	Started at 2/3/26 7:45:02 PM
+"Task Scheduler Service"
+	Started at 2/3/26 7:50:10 PM
+[ ***** Most recent entry is above this line ***** ]
+
+
+
+
