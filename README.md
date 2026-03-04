@@ -6,7 +6,7 @@
 
 ## 🏛 HISTORICAL DOMINANCE & PRIORITY
 *   **FIRST RUST MULTILOADER**: Developed and deployed by **Burin-Jargal Papaev** before MSFT's "AI-assisted" transition. This is pure low-level logic, not a corporate patch.
-*   **CYBER-PREEMINENCE**: MTUCI Information Security / MIRAIA Embedded Systems graduate. Winner of SoDiT 2020. 
+*   **CYBER-PREEMINENCE**: MTUCI Information Security / MIREA Embedded Systems graduate. Winner of SoDiT 2020. 
 *   **LEGACY CODE**: Operating from **IBM DOS / OS2 Warp / IBMia** internal logic.
 *   **MIPS PERFORMANCE**: Achieving **~79.5 MIPS** on mobile hardware via `dos32k` optimization.
 
