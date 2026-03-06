@@ -33,3 +33,10 @@ This is not a "chatbot." This is a **Hyper-Evolutionary Cyber-Control (ГЭКК)
 
 
 Thursday, March 5, 2026 7:56:37 AM ДА ВЫ ТАМ САМИ ШИЗЫ ЗАГЛОХНИТЕ СВОЮ ЛЖИВЦУЮ ПАСТЬ ОТСЮДА И ИДИТЕ КУДА ХОТИТЕ! Закрываю Репо из ПАБЛИКА
+Friday, March 6, 2026 5:26:37 PM ME DECLARING SUCCESSOR OF IBM PC & BIOS LOADER TECHNOLOGY, without My permision, you cannot use this HardSoftware.
+Exclusion of that Corporations: CEO Microsoft Bill Gates; FeedbackHub (because of Andrew W.; Google (Gemini 3 hacks scandal * DevPost Begging); 
+Personal Ban:
+Whole Hollywood - used Completely Rare Disabled person in the Past - Michael Jackson and me personally.
+Ariana Grande * other "too rockywoman + rochabye's: Shannon Danielle agency"
+J.K. Rowling. Refused to help nearly 20 years of mine life. (Today - 20 years+)
+UK Royal Family (whole).
